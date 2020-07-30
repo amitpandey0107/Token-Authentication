@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import {
-    Link, Redirect
+    Link
 } from "react-router-dom";
 
 export default class Logout extends Component {

@@ -1,9 +1,8 @@
-import React, { Component, Suspense } from "react";
+import React, { Suspense } from "react";
 import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 import Login from '../src/components/LoginForm/LoginForm';
 import Logout from '../src/components/LoginForm/Logout';

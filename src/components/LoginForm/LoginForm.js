@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { Form, Container, Row, Col, Button } from 'react-bootstrap';
 import './LoginForm.css';
 import {
  Redirect
@@ -23,7 +22,7 @@ export default class LoginForm extends Component {
     submitForm = (e) => {
         e.preventDefault();
         const {username, password} = this.state;
-        if (username=="admin" && password=="admin") {
+        if (username==="admin" && password==="admin") {
             localStorage.setItem("token", "asdfghjklpoiu")
             this.setState({
                 loggedIn:true
